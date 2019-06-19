@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2070731D22B2C3E30023B209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070731C22B2C3E30023B209 /* AppDelegate.swift */; };
+		2070731F22B2C3E30023B209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070731E22B2C3E30023B209 /* ViewController.swift */; };
+		2070732222B2C3E30023B209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2070732022B2C3E30023B209 /* Main.storyboard */; };
+		2070732422B2C3E50023B209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2070732322B2C3E50023B209 /* Assets.xcassets */; };
+		2070732722B2C3E50023B209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2070732522B2C3E50023B209 /* LaunchScreen.storyboard */; };
+		2070733222B2C3E50023B209 /* MGM_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070733122B2C3E50023B209 /* MGM_appTests.swift */; };
+		2070733D22B2C94F0023B209 /* diningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070733C22B2C94F0023B209 /* diningViewController.swift */; };
+		2070733F22B402E50023B209 /* showsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070733E22B402E50023B209 /* showsViewController.swift */; };
+		2070734122B403080023B209 /* nightlifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070734022B403080023B209 /* nightlifeViewController.swift */; };
+		2070734322B403250023B209 /* roomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070734222B403250023B209 /* roomsViewController.swift */; };
+		2070734522B446CB0023B209 /* happyPathMgmGrand.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2070734422B446CB0023B209 /* happyPathMgmGrand.gpx */; };
+		20E3EEAA22B85ADF001CC953 /* propertyGeofences-min.json in Resources */ = {isa = PBXBuildFile; fileRef = 20E3EEA922B85ADF001CC953 /* propertyGeofences-min.json */; };
+		20E3EEAC22B98772001CC953 /* tripAroundTheStrip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 20E3EEAB22B98772001CC953 /* tripAroundTheStrip.gpx */; };
+		20E3EEAE22B999F5001CC953 /* mgmresorts-international-logo-2000x422.png in Resources */ = {isa = PBXBuildFile; fileRef = 20E3EEAD22B999F5001CC953 /* mgmresorts-international-logo-2000x422.png */; };
+		20E3EEB022B99BEB001CC953 /* inAndOutOfBuildings.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 20E3EEAF22B99BEB001CC953 /* inAndOutOfBuildings.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2070732E22B2C3E50023B209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2070731122B2C3E30023B209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2070731822B2C3E30023B209;
+			remoteInfo = "MGM app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2070731922B2C3E30023B209 /* MGM app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MGM app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2070731C22B2C3E30023B209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2070731E22B2C3E30023B209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2070732122B2C3E30023B209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2070732322B2C3E50023B209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2070732622B2C3E50023B209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2070732822B2C3E50023B209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2070732D22B2C3E50023B209 /* MGM appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MGM appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2070733122B2C3E50023B209 /* MGM_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGM_appTests.swift; sourceTree = "<group>"; };
+		2070733322B2C3E50023B209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2070733C22B2C94F0023B209 /* diningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diningViewController.swift; sourceTree = "<group>"; };
+		2070733E22B402E50023B209 /* showsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showsViewController.swift; sourceTree = "<group>"; };
+		2070734022B403080023B209 /* nightlifeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nightlifeViewController.swift; sourceTree = "<group>"; };
+		2070734222B403250023B209 /* roomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomsViewController.swift; sourceTree = "<group>"; };
+		2070734422B446CB0023B209 /* happyPathMgmGrand.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = happyPathMgmGrand.gpx; sourceTree = "<group>"; };
+		20E3EEA922B85ADF001CC953 /* propertyGeofences-min.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "propertyGeofences-min.json"; sourceTree = "<group>"; };
+		20E3EEAB22B98772001CC953 /* tripAroundTheStrip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tripAroundTheStrip.gpx; sourceTree = "<group>"; };
+		20E3EEAD22B999F5001CC953 /* mgmresorts-international-logo-2000x422.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mgmresorts-international-logo-2000x422.png"; sourceTree = "<group>"; };
+		20E3EEAF22B99BEB001CC953 /* inAndOutOfBuildings.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = inAndOutOfBuildings.gpx; sourceTree = "<group>"; };
+		20E3EEB522BA9AE7001CC953 /* 2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2x.jpeg; path = "/Users/brianunggul/Desktop/MGM app/2x.jpeg"; sourceTree = "<absolute>"; };
+		20E3EEB622BA9AE7001CC953 /* 3x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3x.jpeg; path = "/Users/brianunggul/Desktop/MGM app/3x.jpeg"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2070731622B2C3E30023B209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2070732A22B2C3E50023B209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2070731022B2C3E30023B209 = {
+			isa = PBXGroup;
+			children = (
+				2070731B22B2C3E30023B209 /* MGM app */,
+				2070733022B2C3E50023B209 /* MGM appTests */,
+				2070731A22B2C3E30023B209 /* Products */,
+				20E3EEAD22B999F5001CC953 /* mgmresorts-international-logo-2000x422.png */,
+				20E3EEB522BA9AE7001CC953 /* 2x.jpeg */,
+				20E3EEB622BA9AE7001CC953 /* 3x.jpeg */,
+			);
+			sourceTree = "<group>";
+		};
+		2070731A22B2C3E30023B209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2070731922B2C3E30023B209 /* MGM app.app */,
+				2070732D22B2C3E50023B209 /* MGM appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2070731B22B2C3E30023B209 /* MGM app */ = {
+			isa = PBXGroup;
+			children = (
+				2070731C22B2C3E30023B209 /* AppDelegate.swift */,
+				2070731E22B2C3E30023B209 /* ViewController.swift */,
+				2070732022B2C3E30023B209 /* Main.storyboard */,
+				2070732322B2C3E50023B209 /* Assets.xcassets */,
+				2070732522B2C3E50023B209 /* LaunchScreen.storyboard */,
+				2070732822B2C3E50023B209 /* Info.plist */,
+				2070733C22B2C94F0023B209 /* diningViewController.swift */,
+				2070733E22B402E50023B209 /* showsViewController.swift */,
+				2070734022B403080023B209 /* nightlifeViewController.swift */,
+				2070734222B403250023B209 /* roomsViewController.swift */,
+			);
+			path = "MGM app";
+			sourceTree = "<group>";
+		};
+		2070733022B2C3E50023B209 /* MGM appTests */ = {
+			isa = PBXGroup;
+			children = (
+				20E3EEA922B85ADF001CC953 /* propertyGeofences-min.json */,
+				20E3EEAF22B99BEB001CC953 /* inAndOutOfBuildings.gpx */,
+				20E3EEAB22B98772001CC953 /* tripAroundTheStrip.gpx */,
+				2070734422B446CB0023B209 /* happyPathMgmGrand.gpx */,
+				2070733122B2C3E50023B209 /* MGM_appTests.swift */,
+				2070733322B2C3E50023B209 /* Info.plist */,
+			);
+			path = "MGM appTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2070731822B2C3E30023B209 /* MGM app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2070733622B2C3E50023B209 /* Build configuration list for PBXNativeTarget "MGM app" */;
+			buildPhases = (
+				2070731522B2C3E30023B209 /* Sources */,
+				2070731622B2C3E30023B209 /* Frameworks */,
+				2070731722B2C3E30023B209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MGM app";
+			productName = "MGM app";
+			productReference = 2070731922B2C3E30023B209 /* MGM app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2070732C22B2C3E50023B209 /* MGM appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2070733922B2C3E50023B209 /* Build configuration list for PBXNativeTarget "MGM appTests" */;
+			buildPhases = (
+				2070732922B2C3E50023B209 /* Sources */,
+				2070732A22B2C3E50023B209 /* Frameworks */,
+				2070732B22B2C3E50023B209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2070732F22B2C3E50023B209 /* PBXTargetDependency */,
+			);
+			name = "MGM appTests";
+			productName = "MGM appTests";
+			productReference = 2070732D22B2C3E50023B209 /* MGM appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2070731122B2C3E30023B209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Brian Unggul";
+				TargetAttributes = {
+					2070731822B2C3E30023B209 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					2070732C22B2C3E50023B209 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2070731822B2C3E30023B209;
+					};
+				};
+			};
+			buildConfigurationList = 2070731422B2C3E30023B209 /* Build configuration list for PBXProject "MGM app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2070731022B2C3E30023B209;
+			productRefGroup = 2070731A22B2C3E30023B209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2070731822B2C3E30023B209 /* MGM app */,
+				2070732C22B2C3E50023B209 /* MGM appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2070731722B2C3E30023B209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E3EEAA22B85ADF001CC953 /* propertyGeofences-min.json in Resources */,
+				2070732722B2C3E50023B209 /* LaunchScreen.storyboard in Resources */,
+				2070734522B446CB0023B209 /* happyPathMgmGrand.gpx in Resources */,
+				20E3EEAE22B999F5001CC953 /* mgmresorts-international-logo-2000x422.png in Resources */,
+				20E3EEB022B99BEB001CC953 /* inAndOutOfBuildings.gpx in Resources */,
+				2070732422B2C3E50023B209 /* Assets.xcassets in Resources */,
+				20E3EEAC22B98772001CC953 /* tripAroundTheStrip.gpx in Resources */,
+				2070732222B2C3E30023B209 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2070732B22B2C3E50023B209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2070731522B2C3E30023B209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2070731F22B2C3E30023B209 /* ViewController.swift in Sources */,
+				2070734122B403080023B209 /* nightlifeViewController.swift in Sources */,
+				2070733D22B2C94F0023B209 /* diningViewController.swift in Sources */,
+				2070734322B403250023B209 /* roomsViewController.swift in Sources */,
+				2070731D22B2C3E30023B209 /* AppDelegate.swift in Sources */,
+				2070733F22B402E50023B209 /* showsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2070732922B2C3E50023B209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2070733222B2C3E50023B209 /* MGM_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2070732F22B2C3E50023B209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2070731822B2C3E30023B209 /* MGM app */;
+			targetProxy = 2070732E22B2C3E50023B209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2070732022B2C3E30023B209 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2070732122B2C3E30023B209 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2070732522B2C3E50023B209 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2070732622B2C3E50023B209 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2070733422B2C3E50023B209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2070733522B2C3E50023B209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2070733722B2C3E50023B209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP38L8S2NG;
+				INFOPLIST_FILE = "MGM app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MGM-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2070733822B2C3E50023B209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP38L8S2NG;
+				INFOPLIST_FILE = "MGM app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MGM-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2070733A22B2C3E50023B209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MGM appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MGM-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGM app.app/MGM app";
+			};
+			name = Debug;
+		};
+		2070733B22B2C3E50023B209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MGM appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MGM-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGM app.app/MGM app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2070731422B2C3E30023B209 /* Build configuration list for PBXProject "MGM app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2070733422B2C3E50023B209 /* Debug */,
+				2070733522B2C3E50023B209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2070733622B2C3E50023B209 /* Build configuration list for PBXNativeTarget "MGM app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2070733722B2C3E50023B209 /* Debug */,
+				2070733822B2C3E50023B209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2070733922B2C3E50023B209 /* Build configuration list for PBXNativeTarget "MGM appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2070733A22B2C3E50023B209 /* Debug */,
+				2070733B22B2C3E50023B209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2070731122B2C3E30023B209 /* Project object */;
+}

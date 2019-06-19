@@ -1,0 +1,215 @@
+{
+    "lvPropertyGeofences": [
+        {
+			"propertyName": "Aria",
+            "propertyId": "aria",
+            "centerLat": "36.107624",
+            "centerLong": "-115.176726",
+            "radius": "184",
+            "latMinimum": "36.10635",
+            "latMaximum": "36.108898",
+            "longMinimum": "-115.178033",
+            "longMaximum": "-115.175419"
+        },
+        {
+            "propertyName": "Bellagio",
+			"propertyId": "bellagio",
+            "centerLat": "36.1130845",
+            "centerLong": "-115.176538",
+            "radius": "208",
+            "latMinimum": "36.111812",
+            "latMaximum": "36.114357",
+            "longMinimum": "-115.178242",
+            "longMaximum": "-115.174834"
+        },
+        {
+			"propertyName": "Delano",
+			"propertyId": "delano",
+            "centerLat": "36.093135",
+            "centerLong": "-115.1772715",
+            "radius": "75",
+            "latMinimum": "36.092691",
+            "latMaximum": "36.093579",
+            "longMinimum": "-115.1779",
+            "longMaximum": "-115.176643"
+        },
+        {
+			"propertyName": "Excalibur",
+			"propertyId": "excalibur",
+            "centerLat": "36.0990605",
+            "centerLong": "-115.1755285",
+            "radius": "267",
+            "latMinimum": "36.097481",
+            "latMaximum": "36.10064",
+            "longMinimum": "-115.177767",
+            "longMaximum": "-115.17329"
+        },
+        {
+			"propertyName": "Luxor",
+			"propertyId": "luxor",
+            "centerLat": "36.095508",
+            "centerLong": "-115.176696",
+            "radius": "358",
+            "latMinimum": "36.093769",
+            "latMaximum": "36.097247",
+            "longMinimum": "-115.180053",
+            "longMaximum": "-115.173339"
+        },
+        {
+			"propertyName": "Mandalay Bay",
+			"propertyId": "mandalay-bay",
+            "centerLat": "36.090129",
+            "centerLong": "-115.1750085",
+            "radius": "404",
+            "latMinimum": "36.086689",
+            "latMaximum": "36.093569",
+            "longMinimum": "-115.176472",
+            "longMaximum": "-115.173545"
+        },
+        {
+			"propertyName": "MGM Grand",
+			"propertyId": "mgm-grand",
+            "centerLat": "36.1025445",
+            "centerLong": "-115.169882",
+            "radius": "251",
+            "latMinimum": "36.101176",
+            "latMaximum": "36.103913",
+            "longMinimum": "-115.172108",
+            "longMaximum": "-115.167656"
+        },
+        {
+			"propertyName": "The Mirage",
+			"propertyId": "the-mirage",
+            "centerLat": "36.1215555",
+            "centerLong": "-115.175234",
+            "radius": "268",
+            "latMinimum": "36.11986",
+            "latMaximum": "36.123251",
+            "longMinimum": "-115.177353",
+            "longMaximum": "-115.173115"
+        },
+        {
+			"propertyName": "Park MGM",
+			"propertyId": "park-mgm",
+            "centerLat": "36.1046535",
+            "centerLong": "-115.1757935",
+            "radius": "174",
+            "latMinimum": "36.103877",
+            "latMaximum": "36.10543",
+            "longMinimum": "-115.177478",
+            "longMaximum": "-115.174109"
+        },
+        {
+			"propertyName": "NYNY",
+			"propertyId": "new-york-new-york",
+            "centerLat": "36.1021935",
+            "centerLong": "-115.174693",
+            "radius": "164",
+            "latMinimum": "36.101058",
+            "latMaximum": "36.103329",
+            "longMinimum": "-115.175864",
+            "longMaximum": "-115.173522"
+        },
+        {
+			"propertyName": "The Signature at MGM Grand",
+			"propertyId": "the-signature-at-mgm-grand",
+            "centerLat": "36.1065985",
+            "centerLong": "-115.16643",
+            "radius": "166",
+            "latMinimum": "36.105315",
+            "latMaximum": "36.107882",
+            "longMinimum": "-115.16739",
+            "longMaximum": "-115.16547"
+        },
+        {
+			"propertyName": "Vdara",
+			"propertyId": "vdara",
+            "centerLat": "36.109445",
+            "centerLong": "-115.178248",
+            "radius": "100",
+            "latMinimum": "36.10897",
+            "latMaximum": "36.10992",
+            "longMinimum": "-115.179193",
+            "longMaximum": "-115.177303"
+        },
+        {
+			"propertyName": "Circus Circus",
+			"propertyId": "circus-circus",
+            "centerLat": "36.1380425",
+            "centerLong": "-115.1652415",
+            "radius": "281",
+            "latMinimum": "36.136539",
+            "latMaximum": "36.139546",
+            "longMinimum": "-115.167761",
+            "longMaximum": "-115.162722"
+        },
+        {
+			"propertyName": "NoMad Las Vegas",
+			"propertyId": "nomad-las-vegas",
+            "centerLat": "36.1046535",
+            "centerLong": "-115.1757935",
+            "radius": "174",
+            "latMinimum": "36.103877",
+            "latMaximum": "36.10543",
+            "longMinimum": "-115.177478",
+            "longMaximum": "-115.174109"
+        }
+    ],
+    "regionalPropertyGeofences": [
+        {
+			"propertyName": "Beau Rivage",
+			"propertyId": "beau-rivage",
+            "centerLat": "30.370505",
+            "centerLong": "-88.916203",
+            "radius": "57943",
+            "latMinimum": "30.026905",
+            "latMaximum": "30.714105",
+            "longMinimum": "-89.369389",
+            "longMaximum": "-88.463017"
+        },
+        {
+			"propertyName": "Gold Strike",
+			"propertyId": "gold-strike",
+            "centerLat": "34.8995745",
+            "centerLong": "-90.341988",
+            "radius": "57724",
+            "latMinimum": "34.554927",
+            "latMaximum": "35.244222",
+            "longMinimum": "-90.814400",
+            "longMaximum": "-89.869576"
+        },
+        {
+			"propertyName": "MGM Grand Detroit",
+			"propertyId": "mgm-grand-detroit",
+            "centerLat": "42.2842525",
+            "centerLong": "-83.0681795",
+            "radius": "30620",
+            "latMinimum": "42.061246",
+            "latMaximum": "42.507259",
+            "longMinimum": "-83.285846",
+            "longMaximum": "-82.850513"
+        },
+        {
+			"propertyName": "MGM National Harbor",
+			"propertyId": "mgm-national-harbor",
+            "centerLat": "38.818656",
+            "centerLong": "-77.0964315",
+            "radius": "83935",
+            "latMinimum": "38.236611",
+            "latMaximum": "39.400701",
+            "longMinimum": "-77.711666",
+            "longMaximum": "-76.481197"
+        },
+        {
+			"propertyName": "MGM Springfield",
+			"propertyId": "mgm-springfield",
+            "centerLat": "42.3783965",
+            "centerLong": "-72.3541955",
+            "radius": "82847",
+            "latMinimum": "42.029427",
+            "latMaximum": "42.727366",
+            "longMinimum": "-73.244088",
+            "longMaximum": "-71.464303"
+        }
+    ]
+}
